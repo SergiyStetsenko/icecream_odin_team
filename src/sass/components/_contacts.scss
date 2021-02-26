@@ -1,0 +1,70 @@
+.contact {
+  background-color: $section-background;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  /* or 22px */
+  letter-spacing: 0.04em;
+  &__post {
+    width: 179px;
+    // text-align: start;
+  }
+  &__text {
+    color: #ffffff;
+    width: 80px;
+    background: #f0d1a5;
+    border-radius: 4px;
+    margin-bottom: 25px;
+  }
+  &__text__green {
+    color: #ffffff;
+    width: 130px;
+    background: #c2e297;
+    border-radius: 4px;
+    margin-bottom: 25px;
+  }
+&__iten {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  padding-top: 43px;
+  width: 220px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+&__title {
+  color: #000000;
+  margin-bottom: 10px;
+}
+&__subtitle {
+  width: 179px;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 25px;
+  color: #907e82;
+}
+&__info__iten {
+  padding-top: 25px;
+}
+
+&__info {
+  width: 179px;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 25px;
+}
+&__info__iten__today {
+  color: #000000;
+}
+&__info__iten__time {
+  color: #ffa5ba;
+}
+&__adress {
+  padding-top: 25px;
+  padding-bottom: 43px;
+}
+&__adress__iten {
+  color: #907e82;
+}
+}

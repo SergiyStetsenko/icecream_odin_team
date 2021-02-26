@@ -1,0 +1,81 @@
+header{
+    background-color: #FFB8CA;
+}
+.header {
+    overflow: hidden;
+    position: relative;
+    &__logo {
+        width: 199px;
+        height: 50px;
+        padding-top: 6px;
+        margin-bottom: 137px;
+    } 
+    &__burger{
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        background: transparent;
+        border: none;
+        margin-left: 0;
+        &__icon {
+            border: none;
+            color: $accent-color;
+        }
+    }
+}
+.background{
+    &__images{
+        position: absolute;
+        z-index: 1;
+        height: 410px;
+        width:171px;
+        top: 92px;
+        left: 117px;
+    }
+}
+.circle{
+    top: 92px;
+    left: 32px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #FFA5BA;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+}
+// ------------------------------HERO----------------------
+.hero {
+    &__title {
+        z-index: 2;
+        position: relative;
+        text-align: start;
+        color: #FFFFFF;
+        font-size: 26px;
+        line-height: 1.145;
+        &__text{
+            font-size: 37px;
+        }
+        &__redtext{
+            line-height: 0.965;
+            font-size: 48px;
+            color: $accent-color;
+        }
+    }
+    &__btn {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 10px;
+        padding: 4px 10px;
+        z-index: 2;
+        position: relative;
+        margin-bottom: 160px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: none;
+        &:not(:last-child){
+            margin-right: 8px;
+        }
+    }
+}

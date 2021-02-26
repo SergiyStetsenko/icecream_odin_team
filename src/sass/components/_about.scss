@@ -1,0 +1,16 @@
+.about {
+  background-color: $section-background;
+  &__container {
+    background-color: $section-background;
+    margin-top: 125px;
+  }
+  &__text {
+    height: 21px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  &___title {
+    height: 76px;
+    width: 100%;
+  }
+}

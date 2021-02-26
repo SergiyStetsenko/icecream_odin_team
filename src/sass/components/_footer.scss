@@ -1,0 +1,42 @@
+.footer {
+  &__title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__ice {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    color: $secondary-title-color;
+    margin-bottom: 15px;
+  }
+  &__cream {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+  &__info {
+    text-align: right;
+  }
+
+  &__post {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 152%;
+
+    text-align: center;
+
+    color: #907e82;
+  }
+}
+hr {
+  background: #e5e5e5;
+}
+hr {
+  margin-top: 43px;
+  margin-bottom: 22px;
+}
